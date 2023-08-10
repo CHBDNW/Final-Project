@@ -1,0 +1,38 @@
+.GlycemicIndexPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    margin-top: 70px;
+  }
+  
+  .Header {
+    text-align: center;
+  }
+  
+  .Content {
+    margin-top: 20px;
+  }
+  
+  .SearchBar {
+    text-align: center;
+  }
+  
+  .GlycemicImage {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .GlycemicImage img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .GlycemicText h3 {
+    justify-content: center;
+    /* text-align: justify; */
+    margin-top: 20px;
+    padding: 0 20px;
+  }
+  
+  

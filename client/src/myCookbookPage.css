@@ -1,0 +1,9 @@
+/* myCookbookPage.css */
+.MyCookbookPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Add styles specific to MyCookbookPage here */
+  

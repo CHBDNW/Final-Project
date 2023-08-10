@@ -4,4 +4,277 @@
   --link: #61dafb;
   --text: hsla(0, 0%, 100%, 0.88);
 }
+/* Reset some default styles */
+body, h1, h2, h3, h4, h5, h6, p, ul, li, button {
+  margin: 0;
+  padding: 0;
+}
 
+/* Set a colorful background */
+body {
+  background-color: #cbfade;
+}
+
+/* Main container styles */
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Main title styles */
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #000000; /* Green font color */
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+/* SearchByIngredients container styles */
+.SearchByIngredients {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Input styles */
+.SearchByIngredients input[type="text"] {
+  padding: 80px;
+  border: 2px solid #1d7cd5;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* Search button styles */
+.SearchByIngredients button {
+  padding: 10px 20px;
+  background-color: #087cdb;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.SearchByIngredients button:hover {
+  background-color: #45a049;
+}
+
+/* Recipe list styles */
+.SearchByIngredients ul {
+  list-style: none;
+  margin-top: 40px;
+}
+
+.SearchByIngredients li {
+  margin-bottom: 5px;
+}
+
+/* View Details button styles */
+.SearchByIngredients button.details-button {
+  background-color: #007BFF;
+}
+
+.SearchByIngredients button.details-button:hover {
+  background-color: #0056b3;
+}
+
+/* RecipeInformation container styles */
+.RecipeInformation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* RecipeInformation title styles */
+.RecipeInformation h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #007BFF;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+/* RecipeInformation image styles */
+.RecipeInformation img {
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+
+/* RecipeInformation nutrition label styles */
+.RecipeInformation .nutrition-label {
+  max-width: 100%;
+  margin-top: 10px;
+}
+
+/* Error message styles */
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+/* RecipeInformation container styles */
+.RecipeInformation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+/* RecipeInformation box styles */
+.RecipeInformation-box {
+  border: 2px solid #007BFF;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  max-width: 500px; /* You can adjust the maximum width as needed */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* RecipeInformation title styles */
+.RecipeInformation h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #007BFF;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+/* RecipeInformation image styles */
+.RecipeInformation img {
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+
+/* RecipeInformation nutrition label styles */
+.RecipeInformation .nutrition-label {
+  max-width: 100%;
+  margin-top: 10px;
+}
+
+/* Error message styles */
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+/* SearchByIngredients container styles */
+.SearchByIngredients {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Input styles */
+.SearchByIngredients input[type="text"] {
+  margin-top: 10px;
+  padding: 20px;
+  border: 2px solid #0bbad1;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* Search button styles */
+.SearchByIngredients button {
+  padding: 10px 20px;
+  background-color: #0990ff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.SearchByIngredients button:hover {
+  background-color: #0549a9;
+}
+
+/* Recipe grid styles */
+.RecipeGrid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Recipe box styles */
+.RecipeBox {
+  border: 2px solid #007BFF;
+  border-radius: 10px;
+  padding: 10px;
+  max-width: 200px;
+  text-align: center;
+}
+
+/* Recipe image styles */
+.RecipeBox img {
+  max-width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* Recipe title styles */
+.RecipeBox h3 {
+  font-size: 16px;
+  margin-bottom: 5px;
+  font-style: italic;
+}
+
+/* View Details button styles */
+.RecipeBox button {
+  padding: 5px 10px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 5px;
+  transition: background-color 0.3s;
+}
+
+.RecipeBox button:hover {
+  background-color: #0056b3;
+}
+
+.RecipeCard {
+  border: 2px solid #007BFF;
+  border-radius: 10px;
+  padding: 10px;
+  max-width: 200px;
+  text-align: center;
+}
+
+/* RecipeCard image styles */
+.RecipeCard img {
+  max-width: 100%;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+/* RecipeCard title styles */
+.RecipeCard h3 {
+  font-size: 16px;
+  margin-bottom: 5px;
+  font-style: italic;
+}
+
+/* Recipe grid styles */
+.RecipeGrid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}

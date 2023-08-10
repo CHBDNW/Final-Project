@@ -1,0 +1,51 @@
+/* Header styles */
+.Header {
+  background-image: url('https://cloudfront.omsphoto.com/wp-content/uploads/2019/10/OMS-photo-food-photography-067.jpg');
+  background-size: cover;
+  background-position: center;
+  background-color: var(--header);
+  color: var(--text);
+  padding: 5px; /* Increase the padding to make the header taller */
+  display: flex;
+  justify-content: center;
+  position: fixed; /* Keep the header fixed at the top of the screen */
+  top: 0; /* Place the header at the top */
+  left: 0;
+  right: 0;
+  z-index: 1000; /* Set a high z-index to ensure the header is always on top of other elements */
+}
+
+.Header-content {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Header-logo a {
+  font-size: 62px; /* Increase the font size to make the logo bigger */
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--text);
+}
+
+.Header-nav ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+
+.Header-nav li {
+  margin-right: 20px;
+}
+
+.Header-nav a {
+  text-decoration: none;
+  color: var(--text);
+  font-size: 18px;
+}
+
+.Header-nav a:hover {
+  color: var(--link);
+}
