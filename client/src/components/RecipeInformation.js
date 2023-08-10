@@ -106,7 +106,7 @@ const RecipeInformation = ({ recipeId }) => {
           />
         </div>
       )}
-<p>&nbsp;</p>
+      <p>&nbsp;</p>
       <h3>Instructions:</h3>
       <p>
         <span style={{ fontWeight: 'bold', fontStyle: 'italic', fontSize: '1.2em' }}>
