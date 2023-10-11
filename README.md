@@ -2,5 +2,6 @@ HEALTHY is a full stack web application that utilizes a powerful API to offer a 
 It implements a simple and user-friendly frontend coded in React and Javascript, and an SQL back end.   
 
 You can view the JS files in client/SRC/Components. 
+There is a quick video demonstration called HEALTHY Demonstration 2, my apologies for the low resolution - GitHub only allows a 25mb file. 
 
 --Chris Hontos, 2023. 
